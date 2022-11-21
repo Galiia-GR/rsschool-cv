@@ -64,5 +64,5 @@ function digitalRoot(n) {
 
 ### Languages:
 
-- **Russian** - native sreaker
+- **Russian** - Native sreaker
 - **English** - A2 (Pre-Intermediate)
