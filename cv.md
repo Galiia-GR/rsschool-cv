@@ -52,8 +52,8 @@ function digitalRoot(n) {
 
 ### Education & Courses:
 
-- **Ufa State Aviation Technical University (USATU)**
-  [Faculty of Computer Science and Robotics](https://ugatu.su/en/)
+- **Ufa State Aviation Technical University [(USATU)]**(https://ugatu.su/en/)
+  -Faculty of Computer Science and Robotics
 
 * **Udemy**
   - [The Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/)
