@@ -1,6 +1,6 @@
 # Galiia Gusamutdinova
 
-### Junior Front-End Developer
+### Junior Front-end Developer
 
 ---
 
@@ -16,7 +16,7 @@
 
 ### About me:
 
-Recently, I have been actively studying JavaScript on the Udemy platform and solving problems using algorithms on the codewars website. I am very passionate about web development, I love learning and I want to fully immerse in development as my goal is to become an experienced Front-end developer.
+Recently, I have been actively studying JavaScript on the Udemy platform and solving problems using algorithms on the codewars website. I am very passionate about web development, I love learning and I want to fully immerse in development as my goal is to become an experienced Front-end Developer.
 
 ---
 
