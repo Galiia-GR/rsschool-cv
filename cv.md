@@ -1,8 +1,8 @@
 # Galiia Gusamutdinova
 
-## Junior Front-End Developer
-
 ---
+
+### Junior Front-End Developer
 
 ### Contacts:
 
@@ -16,9 +16,11 @@
 
 ### About me:
 
+Recently, I have been actively studying JavaScript on the Udemy platform and solving problems using algorithms on the codewars website. I am very passionate about web development, I love learning and I want to fully immerse in development as my goal is to become an experienced Front-end developer.
+
 ---
 
-### Skils:
+### Skills:
 
 - HTML5, CSS
 - JavaScript Basic
@@ -28,7 +30,7 @@
 
 ### Code Example:
 
-**Kata from Codewars:**[Sum of Digits][https://www.codewars.com/kata/541c8630095125aba6000c00]
+**Kata from Codewars:**[Sum of Digits](https://www.codewars.com/kata/541c8630095125aba6000c00)
 Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.
 
 ```javascript
@@ -51,8 +53,7 @@ function digitalRoot(n) {
 ### Education & Courses:
 
 - **Ufa State Aviation Technical University (USATU)**
-
-* Faculty of Computer Science and Robotics
+  Faculty of Computer Science and Robotics
 
 * **Udemy**
   - [The Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/)
@@ -63,4 +64,4 @@ function digitalRoot(n) {
 ### Languages:
 
 - **Russian** - native sreaker
-- **English** - A2(Pre-Intermediate)
+- **English** - A2 (Pre-Intermediate)
