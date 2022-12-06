@@ -1,1 +1,2 @@
 - https://Galiia-GR.github.io/rsschool-cv/cv
+- https://Galiia-GR.github.io/rsschool-cv/
