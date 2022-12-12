@@ -5,17 +5,163 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>test</title>
+    <title>CV Galiia</title>
   </head>
   <body>
-    <header class="main">
-      <h1>📘 The Code</h1>
-    </header>
-    <p>Text</p>
-    <footer>
-      <p id="copyright" class="copyright text">
-        Copyright &copy; 2027 by The Code Magazine.
-      </p>
-    </footer>
+    <div class="container">
+      <div class="main_content">
+        <article class="article_left">
+          <h2>
+            <img
+              class="photo"
+              src="./assets/photo.jpg"
+              alt="photo"
+              width="350"
+              height="350"
+            >
+          </h2>
+          <section class="contacts">
+            <h3>Contacts:</h3>
+            <ul>
+              <li>
+                <strong>Location:</strong>
+                Astana
+              </li>
+              <li>
+                <strong>Phone:</strong>
+                +7 705 196 7574
+              </li>
+              <li>
+                <strong>E-mail:</strong>
+                hope05590@gmail.com
+              </li>
+              <li>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Galiia-GR" target="_blank"
+                  >Galiia-GR</a
+                >
+              </li>
+              <li>
+                <strong>Telegram:</strong>
+                <a href="https://t.me/galiia_g" target="_blank">@galiia_g</a>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills:</h3>
+            <ul>
+              <li>HTML5, CSS</li>
+              <li>JavaScript Basic</li>
+              <li>Git, GitHub</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages:</h3>
+            <ul>
+              <li>Russian - Native sreaker</li>
+              <li>English - A2 (Pre-Intermediate)</li>
+            </ul>
+          </section>
+        </article>
+        <article class="article_right">
+          <header class="main_header">
+            <h1>Galiia Gusamutdinova</h1>
+            <h2>Junior Front-end Developer</h2>
+          </header>
+          <section class="about_me">
+            <h3>About me:</h3>
+            <p>
+              Recently, I have been actively studying JavaScript on the Udemy
+              platform and solving problems using algorithms on the codewars
+              website. I am very passionate about web development, I love
+              learning and I want to fully immerse in development as my goal is
+              to become an experienced Front-end Developer.
+            </p>
+          </section>
+          <section class="education">
+            <h3>Education & Courses:</h3>
+            <ul>
+              <li>
+                Ufa State Aviation Technical University
+                <a href="https://ugatu.su/en/" target="_blank">(USATU)</a>
+              </li>
+              <li class="li_none">
+                - Faculty of Computer Science and Robotics
+              </li>
+              <li>Udemy</li>
+              <li class="li_none">
+                -
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                  target="_blank"
+                  >The Complete JavaScript Course</a
+                >
+              </li>
+              <li class="li_none">
+                -
+                <a
+                  href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                  target="_blank"
+                  >Learn modern HTML5, CSS3</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="code_example">
+            <h3>Code Example:</h3>
+            <p>
+              Kata from Codewars:
+              <a
+                href="https://www.codewars.com/kata/541c8630095125aba6000c00"
+                target="_blank"
+                >(Sum of Digits)</a
+              >
+              Given n, take the sum of the digits of n. If that value has more
+              than one digit, continue reducing in this way until a single-digit
+              number is produced. The input will be a non-negative integer.
+            </p>
+            <br>
+            <pre>
+            <code>
+         function digitalRoot(n) {
+            if (n >= 10) {
+              const str = n.toString();
+              const arr = str.split("");
+              const arrNew = arr.map((el) => +el);
+              const value = arrNew.reduce((el, acc) => {
+              return +el + acc; },0);
+              return digitalRoot(value);
+             }
+             return n;
+            }</code>
+            </pre>
+          </section>
+        </article>
+      </div>
+      <footer class="footer">
+        <nav>
+          <a href="https://rs.school/js/" target="_blank">
+            <img
+              src="./assets/rs_school_js.svg"
+              width="114"
+              height="42"
+              alt="RS School"
+            >
+          </a>
+          <p>
+            Copyright &copy; 2022 by Galiia-GR<a
+              href="https://github.com/Galiia-GR"
+              target="_blank"
+            >
+              <img
+                src="./assets/github.svg"
+                width="32"
+                height="32"
+                alt="github"
+            ></a>
+          </p>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
