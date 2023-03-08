@@ -25,6 +25,7 @@ Recently, I have been actively studying JavaScript on the Udemy platform and sol
 - HTML5, CSS
 - JavaScript Basic
 - Git, GitHub
+- Figma
 
 ---
 
