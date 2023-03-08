@@ -126,11 +126,11 @@
             <pre>
             <code>
          function digitalRoot(n) {
-            if (n >= 10) {
+            if (n &gt;= 10) {
               const str = n.toString();
               const arr = str.split("");
-              const arrNew = arr.map((el) => +el);
-              const value = arrNew.reduce((el, acc) => {
+              const arrNew = arr.map((el) =&gt; +el);
+              const value = arrNew.reduce((el, acc) =&gt; {
               return +el + acc; },0);
               return digitalRoot(value);
              }
