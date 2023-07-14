@@ -24,7 +24,7 @@ body {
   width: 30%;
   background-color: #f7e6e2ea;
   padding: 30px;
-  margin: 30px;
+  margin: 30px 30px 0 30px;
   padding-top: 100px;
 }
 
@@ -40,6 +40,7 @@ body {
 .footer {
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 section {
@@ -78,6 +79,7 @@ a:hover {
 
 a:link {
   text-decoration: none;
+  color: #1098ad;
 }
 a:visited {
   color: #1098ad;
