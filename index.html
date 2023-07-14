@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>CV Galiia</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_content">
+        <article class="article_left">
+          <h2>
+            ^..^
+            <img
+              class="photo"
+              src="./assets/photo.jpg"
+              alt="photo"
+              width="350"
+              height="350"
+            />
+          </h2>
+          <section class="contacts">
+            <h3>Contacts:</h3>
+            <ul>
+              <li>
+                <strong>Location:</strong>
+                Astana
+              </li>
+              <li>
+                <strong>Phone:</strong>
+                +7 705 196 7574
+              </li>
+              <li>
+                <strong>E-mail:</strong>
+                hope05590@gmail.com
+              </li>
+              <li>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Galiia-GR" target="_blank"
+                  >Galiia-GR</a
+                >
+              </li>
+              <li>
+                <strong>Telegram:</strong>
+                <a href="https://t.me/galiia_g" target="_blank">@galiia_g</a>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills:</h3>
+            <ul>
+              <li>HTML5, CSS</li>
+              <li>JavaScript Basic</li>
+              <li>TypeScript</li>
+              <li>Git, GitHub</li>
+              <li>Figma</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages:</h3>
+            <ul>
+              <li>Russian - Native sreaker</li>
+
+              <li>
+                English - B1+
+                <a href="https://www.efset.org/cert/YLedGb/" target="_blank"
+                  >(link to the certificate)
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+        <article class="article_right">
+          <header class="main_header">
+            <h1>Galiia Gusamutdinova</h1>
+            <h2>Junior Front-end Developer</h2>
+          </header>
+          <section class="about_me">
+            <h3>About me:</h3>
+            <p>
+              Recently I quit my job to fully devote my time to learning, I am
+              active studying JavaScript on the Rolling Scopes School.I am
+              solving problems using algorithms on the codewars website. I am
+              very passionate about web development, I love learning and I want
+              to fully immerse in development, into understanding architecture,
+              into technologies for to create more high-quality and productive
+              applications as my goal is to become an experienced frontend
+              developer. <br />Fun fact about me, I like running, especially
+              trail running. Run help me to be active, positive and productive
+              during the life.
+            </p>
+          </section>
+          <section class="education">
+            <h3>Education &amp; Courses:</h3>
+            <ul>
+              <li>
+                Ufa State Aviation Technical University
+                <a href="https://ugatu.su/en/" target="_blank">(USATU)</a>
+              </li>
+              <li class="li_none">
+                - Faculty of Computer Science and Robotics
+              </li>
+              <li>Udemy</li>
+              <li class="li_none">
+                - The Complete JavaScript Course by Jonas Schmedtmann
+                <a
+                  href="https://www.udemy.com/certificate/UC-f9711ab8-53eb-4d9b-baf0-7a70555755e7/"
+                  target="_blank"
+                  >(link to the certificate)
+                </a>
+              </li>
+              <li class="li_none">
+                - Learn modern HTML5, CSS3 by Jonas Schmedtmann
+                <a
+                  href="https://www.udemy.com/certificate/UC-4cb36905-97a3-4615-97ed-61d6a9541789/"
+                  target="_blank"
+                >
+                  (link to the certificate)</a
+                >
+              </li>
+              <li>The Rolling Scopes School</li>
+              <li class="li_none">
+                - JS/FE Pre-School 2022Q4
+                <a
+                  href="https://app.rs.school/certificate/an5yb0cb/"
+                  target="_blank"
+                  >(link to the certificate)</a
+                >
+              </li>
+              <li class="li_none">
+                - JavaScript/Front-end 2023Q1
+                <a href="https://rs.school/js/" target="_blank"
+                  >(in progress)</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="code_example">
+            <h3>Code Example:</h3>
+            <p>
+              Kata from Codewars:
+              <a
+                href="https://www.codewars.com/kata/541c8630095125aba6000c00"
+                target="_blank"
+                >(Sum of Digits)</a
+              >
+              Given n, take the sum of the digits of n. If that value has more
+              than one digit, continue reducing in this way until a single-digit
+              number is produced. The input will be a non-negative integer.
+            </p>
+            <br />
+            <pre>
+            <code>
+         function digitalRoot(n) {
+            if (n &gt;= 10) {
+              const str = n.toString();
+              const arr = str.split("");
+              const arrNew = arr.map((el) =&gt; +el);
+              const value = arrNew.reduce((el, acc) =&gt; {
+              return +el + acc; },0);
+              return digitalRoot(value);
+             }
+             return n;
+            }</code>
+            </pre>
+          </section>
+        </article>
+      </div>
+      <footer class="footer">
+        <a href="https://rs.school/js/" target="_blank">
+          <img
+            src="./assets/rs_school_js.svg"
+            width="114"
+            height="42"
+            alt="RS School"
+          />
+        </a>
+        <p>
+          Copyright &copy; 2023 by Galiia-GR<a
+            href="https://github.com/Galiia-GR"
+            target="_blank"
+          >
+            <img src="./assets/github.svg" width="32" height="32" alt="github"
+          /></a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
